@@ -1,1 +1,0 @@
-## Appendix C: 4n+2 Rule

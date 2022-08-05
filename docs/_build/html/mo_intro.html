@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Introduction to Molecular Orbitals &#8212; Visualising Molecular Orbitals</title>
+    <title>Molecular Orbitals &#8212; Visualising Molecular Orbitals</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -53,8 +53,6 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Hydrogen Molecule" href="hydrogen.html" />
-    <link rel="prev" title="90% Plot" href="90_plot.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -121,45 +119,13 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="atomic_intro.html">
+  <a class="reference internal" href="atomic_orbitals.html">
    Building Atomic Orbitals
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Spherical_Harmonics.html">
-   Spherical Harmonics
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Radial.html">
-   Radial Distribution Functions
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="appendix_a.html">
-   Appendix A - Polar Coordinates
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Representing Atomic Orbitals Two Ways
- </span>
-</p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="3d_intro.html">
-   3D Probability Distributions
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="metropolis.html">
-   Metropolis-Hastings Method
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="90_plot.html">
-   90% Plot
+  <a class="reference internal" href="represent3d.html">
+   Representing in 3D
   </a>
  </li>
 </ul>
@@ -168,40 +134,20 @@ const thebe_selector_output = ".output, .cell_output"
   Building Molecular Orbitals
  </span>
 </p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="molecularorbitals.html">
    Introduction to Molecular Orbitals
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="hydrogen.html">
-   Hydrogen Molecule
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="ethene.html">
-   Ethene and Butadiene MOs
+  <a class="reference internal" href="huckel_intro.html">
+   Hückel MO Theory
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="benzene.html">
    Benzene MOs
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="appendix_b.html">
-   Appendix B - Slater's Rules for Effective Nuclear Charge
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="appendix_c.html">
-   Appendix C - 4n+2 Rule
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="appendix_d.html">
-   Appendix D - Benzene Calculation
   </a>
  </li>
 </ul>
@@ -212,11 +158,6 @@ const thebe_selector_output = ".output, .cell_output"
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="heteroatom_intro.html">
-   Adding Heteroatoms to Conjugated Systems
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="propenal.html">
    Prop-2-enal
   </a>
@@ -226,9 +167,21 @@ const thebe_selector_output = ".output, .cell_output"
    Amides and Acyl Chlorides
   </a>
  </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Evaluation and Bibliography
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="appendix_e.html">
-   Appendix E - Prop-2-enal Calculations
+  <a class="reference internal" href="Evaluation.html">
+   Evaluation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="bibliography.html">
+   Bibliography and Image Credits
   </a>
  </li>
 </ul>
@@ -398,7 +351,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Introduction to Molecular Orbitals</h1>
+                <h1>Molecular Orbitals</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -410,8 +363,10 @@ title="Print to PDF"
                 
               <div>
                 
-  <section id="introduction-to-molecular-orbitals">
-<h1>Introduction to Molecular Orbitals<a class="headerlink" href="#introduction-to-molecular-orbitals" title="Permalink to this headline">#</a></h1>
+  <section id="molecular-orbitals">
+<h1>Molecular Orbitals<a class="headerlink" href="#molecular-orbitals" title="Permalink to this headline">#</a></h1>
+<p>Now that we have displayed atomic orbitals, we can start to consider molecular orbitals. Much like atomic orbitals, molecular orbitals are described by wavefunctions, and are constructed by finding the linear combination of atomic orbitals from different atoms. Similarly to atomic orbitals, we can find the probability density of an electron at each point in the molecular orbital by taking the square modulus of the wavefunction. Bonding orbitals are lower in energy than the atomic orbitals that form them, while antibonding orbitals are higher in energy. Filling an antibonding orbital effectively cancels out the bond formed by filling the bonding orbital.</p>
+<p>Conjugated compounds contain both sigma bonds (single bonds formed from the head on overlap of any orbital) and π bonds (double bonds formed from the side on overlap of p orbitals). For this project, I have chosen to focus on π bonds as it is π bonding that gives conjugated compounds their interesting properties. The simplest organic molecule containing a π bond is ethene:</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -441,20 +396,6 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="90_plot.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">90% Plot</p>
-        </div>
-    </a>
-    <a class='right-next' id="next-link" href="hydrogen.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Hydrogen Molecule</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
 </div>
             </footer>
         </div>
@@ -464,7 +405,7 @@ title="Print to PDF"
   
     By Megan Gill<br/>
   
-      &copy; Copyright :).<br/>
+      &copy; Copyright Megan Gill.<br/>
 </p>
         </footer>
     </div>
